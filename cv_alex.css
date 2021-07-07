@@ -1,0 +1,224 @@
+body {
+  background-image: url(img/Charpente-industrielle-en-bois.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px 10px;
+  }
+  .one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-color: rgb(212, 212, 212);
+    margin-top: 10px;
+  }
+  .one h2{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 5px;
+
+  }
+  .one h3{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+  hr {
+    height: 1.5px;
+    background-color: rgb(82, 81, 81);
+    border: none;
+  }
+  .informations{
+    padding-right: 15px;
+    text-align: right;
+  }
+  .competences_professionnelles{
+    padding-right: 15px;
+    text-align: right;
+  }
+  .competences_personnelles{
+    padding-right: 15px;
+    text-align: right;
+  }
+  .logiciels{
+    padding-right: 15px;
+    text-align: right;
+  }
+.informations p{
+    margin: 0.3em;
+}
+
+  .two {
+    grid-column:-1;
+    grid-row: 1 ;
+    margin-right: 50px;
+  }
+  .two h1{
+      text-align: right;
+      margin-right: 20px;
+      text-transform: uppercase;
+      color: #999796;
+      font-family: sans-serif;
+      margin-block-end: 5px;
+  }
+  .one .description{
+      margin-bottom: 0.3em;
+  }
+  .first-description{
+    font-size: 1.3em;
+    font-family: monospace;
+  }
+  .profil{
+    font-family: monospace;
+    margin: 0.3em;
+    color: grey;
+  }
+
+.two h4 {
+    margin: 0.3em;
+}
+.two p {
+    padding-bottom: 10px;
+}
+.description{
+  display: inline-block;
+}
+.progress-bar{
+    width: 200px;
+    height: 10px;
+    background-color: white;
+    display: inline-block;
+}
+.estimation:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.realisation-de-plan:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.metre:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.suivis-de-chantier:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.implique:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.flexible:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.ponctuel:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.organise:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.autonome:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.travail-d-equipe:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.attic:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.autocad:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.photoshop:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.illustrator:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.indesign:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+.suite-office:before { 
+  content: "";
+  display: block;
+  width: 140px;
+  height: 10px;
+  background: rgb(61, 61, 61);
+}
+
+#profil{
+  display: grid;
+    grid-template-columns: 90% 10%;
+    grid-gap: 0px 10px;
+  -ms-grid-row-align: end;
+}
+.two img{
+  width: 50px;
+  height: auto;
+}
+.two-hr {
+  height: 1.5px;
+  background-color: #999796;
+  border: none;
+}
+
