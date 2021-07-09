@@ -86,6 +86,12 @@ body {
 }
 .description{
   display: inline-block;
+  text-align: left;
+}
+.result{
+  display: inline-block;
+  text-align: left;
+  width: 200px;
 }
 .progress-bar{
     width: 200px;
@@ -206,15 +212,14 @@ body {
   background: rgb(61, 61, 61);
 }
 
-#profil{
-  display: grid;
-    grid-template-columns: 90% 10%;
-    grid-gap: 0px 10px;
-  -ms-grid-row-align: end;
+.title_profil{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .two img{
   width: 50px;
-  height: auto;
+  height: 50px;
 }
 .two-hr {
   height: 1.5px;
